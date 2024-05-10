@@ -1,0 +1,28 @@
+game:
+  starting_event: "neow_start"
+  map:
+    weights:
+        event: 0.22
+        elite: 0.08
+        campfire: 0.12
+        merchant: 0.05
+  acts:
+    - name: "Act 1"
+      title: "Exordium"
+      preset_floors:
+        - floor: 0
+          type: monster
+        - floor: 8
+          type: chest
+        - floor: 14
+          type: campfire
+        - floor: 15
+          type: boss
+        - floor: 16
+          type: boss_chest
+    # - name: "Act 2"
+    #   title: "The City"
+    # - name: "Act 3"
+    #   title: "The Beyond"
+    # - name: "Act 4"
+    #   title: "The Ending"

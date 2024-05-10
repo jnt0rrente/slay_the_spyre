@@ -1,0 +1,37 @@
+players:
+  - name: "Ironclad"
+    base_health: 80
+    base_energy: 3
+    base_gold: 99
+    card_color: "Red"
+    starter_relic: ""
+    starter_deck:
+      - "strike:5"
+      - "defend:5"
+  - name: "Silent"
+    base_health: 70
+    base_energy: 3
+    base_gold: 99
+    card_color: "Green"
+    starter_relic: ""
+    starter_deck:
+      - "strike:5"
+      - "defend:5"
+  - name: "Defect"
+    base_health: 75
+    base_energy: 3
+    base_gold: 99
+    card_color: "Blue"
+    starter_relic: ""
+    starter_deck:
+      - "strike:5"
+      - "defend:5"
+  - name: "Watcher"
+    base_health: 72
+    base_energy: 3
+    base_gold: 99
+    card_color: "Pink"
+    starter_relic: ""
+    starter_deck:
+      - "strike:5"
+      - "defend:5"
